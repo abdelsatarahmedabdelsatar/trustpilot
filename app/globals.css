@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +30,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+  background-color: #1c1c1c;
+}
+
+.p-carousel-next , .p-carousel-prev{
+
+  padding: 10px;
+  background-color: rgb(207, 223, 251);
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.p-carousel-next:hover{
+  background-color: rgb(175, 204, 253);
+
+
+}.p-carousel-prev:hover{
+  background-color: rgb(175, 204, 253);
 }

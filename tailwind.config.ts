@@ -13,7 +13,22 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        reviewNav: {
+          from: {
+            translateY: "-100px"
+          },
+          to: {
+            translateY: "0px"
+          }
+        }
+
+      },
+      animation:{
+        reviewNav: "reviewNav 0.5s linear forwards",
+      }
     },
+
   },
   plugins: [],
 };
