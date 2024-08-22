@@ -74,9 +74,9 @@ const Navbar = () => {
 
                             <div className=" h-full  text-sm">
                                 <ul className="list-none flex h-full p-0 m-0 justify-start text-white ">
-                                    <li className="border-b-[3.5px] border-b-[#1c1c1c] hover:border-b-[#FFF] px-3 h-full flex items-center"><a href="/categories">Categories</a></li>
-                                    <li className="border-b-[3.5px] border-b-[#1c1c1c] hover:border-b-[#FFF] px-3 h-full flex items-center"><a href="/review">Blog</a></li>
-                                    <li className="border-b-[3.5px] border-b-[#1c1c1c] hover:border-b-[#FFF] px-3 h-full flex items-center"><a href="/categories/bank">Log in</a></li>
+                                <a href="/categories">  <li className="border-b-[3.5px] border-b-[#1c1c1c] hover:border-b-[#FFF] px-3 h-full flex items-center">Categories</li></a>
+                                <a href="/categories/bank">   <li className="border-b-[3.5px] border-b-[#1c1c1c] hover:border-b-[#FFF] px-3 h-full flex items-center">Blog</li></a>
+                                <a href="/review">  <li className="border-b-[3.5px] border-b-[#1c1c1c] hover:border-b-[#FFF] px-3 h-full flex items-center">Log in</li></a>
 
                                     <li className="flex items-center">
                                     <Button className=" bg-indigo-300 text-black rounded-full text-xs font-bold px-6 h-1/2 py-3 hover:text-white hover:bg-indigo-800">For bussiness</Button>
